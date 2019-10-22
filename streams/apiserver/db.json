@@ -1,0 +1,34 @@
+{
+  "streams": [
+    {
+      "title": "My third stream",
+      "description": "Third stream with userId",
+      "userId": "101717621498440438823",
+      "id": 1
+    },
+    {
+      "title": "My stream form",
+      "description": "First stream create with a new stream form",
+      "userId": "101717621498440438823",
+      "id": 5
+    },
+    {
+      "title": "dasd d",
+      "description": "feas fea freafa",
+      "userId": "101717621498440438823",
+      "id": 6
+    },
+    {
+      "title": "ardgrdgrdgd",
+      "description": " gragerhs5t hst htr jhstr jt",
+      "userId": "101717621498440438823",
+      "id": 7
+    },
+    {
+      "title": "ahrt htrs hrt hrws ",
+      "description": "d awr war gxz vxcz vxc",
+      "userId": "101717621498440438823",
+      "id": 8
+    }
+  ]
+}
