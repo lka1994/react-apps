@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, FormGroup, FormControl, FormLabel } from "react-bootstrap";
+import { Form, FormGroup, FormControl, FormLabel, Button } from "react-bootstrap";
 
 class Gift extends React.Component {
   state = { person: "", present: "" };
@@ -14,6 +14,9 @@ class Gift extends React.Component {
             <FormControl className="input-present" onChange={e => this.setState({ present: e.target.value })} />
           </FormGroup>
         </Form>
+        <Button className="btn-remove" onClick={() => this.props.removeGift(this.props.gift.id)}>
+          Remove Gift
+        </Button>
       </div>
     );
   }
