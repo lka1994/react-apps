@@ -5,6 +5,7 @@ import { fetchAllStreams } from "../../actions";
 
 class StreamList extends React.Component {
   componentDidMount() {
+    debugger;
     this.props.getAllStreams();
   }
 

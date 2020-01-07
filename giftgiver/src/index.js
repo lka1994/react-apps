@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
+import { NameConsumer } from "./react-context";
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+ReactDOM.render(<NameConsumer />, document.querySelector("#root"));
